@@ -14,5 +14,8 @@ function calculateTax(income: number): number | undefined {
   }
 }
 
-let tax = calculateTax(400_000);
+let tax = calculateTax(600_000);
 console.log(tax);
+
+type Quantity = 50 | 100 | 200;
+let q: Quantity = 100;

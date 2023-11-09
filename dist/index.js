@@ -11,6 +11,9 @@ function calculateTax(income) {
         return tax;
     }
 }
-let tax = calculateTax(400000);
+let tax = calculateTax(600000);
 console.log(tax);
+
+
+let q = 100;
 //# sourceMappingURL=index.js.map
